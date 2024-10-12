@@ -17,3 +17,6 @@ Route::get('/articles-modifier', function () {
 Route::get('/articles', function () {
     return view('dash.articles');
 })->name('articles');
+Route::get('/articles-recherche', function () {
+    return view('dash.articles-recherche');
+})->name('articles-recherche');
